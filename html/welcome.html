@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no" />
+    <meta name="format-detection" content="telephone=no" />
+    	<link rel="stylesheet" href="../Lib/iconfont/iconfont.css" />
+    <link rel="stylesheet" href="../css/common.css" />
+    <title>首页</title>
+  </head>
+<body>
+  <div id="main">
+  	<div class="welcome-box">
+  			<button class='gotosearch'>
+  			<i class=" iconfont icon-sousuo"></i>
+  			<input readonly="readonly" placeholder="请输入项目名称或项目所在地区" />
+  		</button>
+  		<div class="welcome-menu">
+  			<div class="div-block">
+        <div class="blue">潍坊市智慧城市建设办公室</div>
+        <div class="red">潍坊市领导工作台</div>
+        <div class="org">潍坊市发展和改革委员会</div>
+        <div class="green">潍坊市经济和信息化委员会</div>
+        
+         <div class="color1">2222222</div>
+        <div class="color2">333333</div>
+        <div class="color3">4444444444</div>
+        <div class="color4">55555555</div>
+    </div>
+  		</div>
+  		<a class="more" href="#">更多</a>
+  	
+  	</div>
+  </div>	
+  <script src="../Lib/jquery-1.12.4.min.js"></script>
+   <script src="../js/public.js"></script> 
+   <script>
+   	$('.more').click(function(){
+   		$('.welcome-menu').animate({"height":$('.div-block').height()},500)
+   	})
+   	
+   </script>
+</body>
+</html>

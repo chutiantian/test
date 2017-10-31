@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no" />
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="stylesheet" href="../Lib/iconfont/iconfont.css" />
+    <link rel="stylesheet" href="../Lib/date/date.css" />
+    <link rel="stylesheet" href="../css/common.css" />
+    <title>项目调度</title>
+  </head>
+<body>
+    <!-- 日期开始 -->
+    <div class="date">
+        <p class="top"><span>项目调度月份</span><input readonly="readonly" type="text"  class="dataTime" id= "beginTime"/><i class="iconfont icon-arrow-down"></i></p>
+        <div class="bottomDate">
+            <div class="left">
+                <p><span>实际调度日期</span><span class="time">2017年8月8日</span></p>
+                <p><span>实际截止日期</span><span class="time">2017年8月16日</span></p>
+            </div>
+            <div class="right">
+                <p>调度时间区间为3个工作日</p>
+            </div>
+        </div>
+    </div>
+    <!-- 日期结束 -->
+
+    <!-- 列表 -->
+    <div class="count-list-box"></div>
+    
+    <!-- 日期弹框 -->
+    <div id="datePlugin"></div>
+    <script src="../Lib/jquery-1.12.4.min.js"></script>
+    <script src="../js/public.js"></script>
+    <script src= "../Lib/date/date.js"></script>
+    <script src= "../js/project-survey.js"></script>
+</body>
+</html>
